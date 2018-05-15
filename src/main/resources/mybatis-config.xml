@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="defaultStatementTimeout" value="3000"/>
+        <setting name="autoMappingBehavior" value="PARTIAL"/>
+        <setting name="autoMappingUnknownColumnBehavior" value="WARNING"/>
+        <setting name="localCacheScope" value="SESSION"/>
+    </settings>
+    <typeAliases>
+        <!--<typeAlias alias="Student" type="com.bupt.jwc.model.Student"/>-->
+    </typeAliases>
+    <mappers>
+        <!--<mapper resource="com/bupt/jwc/dao/StudentDao.xml"/>-->
+    </mappers>
+
+</configuration>
